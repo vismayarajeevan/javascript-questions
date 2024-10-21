@@ -6,7 +6,7 @@
 
 function maximum(array){
     let n=array.length;
-    var max=array[0];
+    let max=array[0];
     for(let i=0;i<n;i++){
         if(array[i]>max){
             max=array[i];

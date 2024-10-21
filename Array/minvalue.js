@@ -6,7 +6,7 @@
 
 function minimum(array){
     let n=array.length;
-    var min=array[0];
+    let min=array[0];
     for(let i=0;i<n;i++){
         if(array[i]<min){
             min=array[i];

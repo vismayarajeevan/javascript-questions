@@ -5,8 +5,8 @@
 
 
 function sum(array){
-    let sum=0;
-    let n=array.length;
+    let sum=0
+    let n=array.length
     for(let i=0;i<n;i++){
         sum=sum+array[i];
     }
