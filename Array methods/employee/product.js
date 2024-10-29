@@ -32,7 +32,7 @@ console.log("**********************************");
 
 console.log(products.reduce((a,b)=>a[2]>b[2]?a:b))
 
-//5) Display out of stack product
+//5) Display out of stock product
 
 console.log("**********************************");
 

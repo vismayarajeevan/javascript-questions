@@ -51,20 +51,20 @@ console.log("*********************************");
 console.log(employee.sort((a,b)=>a[5]-b[5]))
 
 
-//find employee with least salary
+//8)find employee with least salary
 
 console.log("*********least************");
 
 console.log(employee.reduce((a,b)=>a[4]<b[4]?a:b))
-// find employee with highest salary
+//9) find employee with highest salary
 
 console.log("***********highest************");
 console.log(employee.reduce((a,b)=>a[4]>b[4]?a:b));
 
 
-// find all employee toatal salry
+//10) find all employee toatal salry
 
-const arr=employee.map((salary)=>(salary[4]))
+const arr=employee.map(salary=>salary[4])
 console.log(arr);
 console.log(arr.reduce((a,b)=>a+b))
 
