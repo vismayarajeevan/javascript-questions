@@ -53,7 +53,7 @@ console.log(products.reduce((a,b)=>a[3]>b[3]?a:b));
 console.log("****************************");
 
 
-console.log(products.some((amount)=>amount[2]==0)?"yes":"no")
+console.log(products.some((amount)=>amount[2]<=10)?"yes":"no")
 
 //9) Is there any product in the range of 10 to 30
 console.log("****************************");
